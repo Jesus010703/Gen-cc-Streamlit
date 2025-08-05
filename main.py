@@ -235,7 +235,7 @@ if 'resultados_actuales' not in st.session_state:
     st.session_state.resultados_actuales = []
 
 # Título principal
-st.markdown('<h1 class="main-title">💳 GENEADOR DE CC YISUS</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">💳 GENERADOR DE CC YISUS</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Generador profesional de números de tarjeta con validación Luhn</p>', unsafe_allow_html=True)
 
 # Sidebar para controles
