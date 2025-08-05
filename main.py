@@ -501,9 +501,9 @@ with tab4:
     with col1:
         st.markdown("### ℹ️ Información de la Aplicación")
         st.markdown('''
-        **Generador de BIN CC - Versión Streamlit**
+        **Generador de BIN CC YISUS - Versión Web **
         
-        Esta aplicación genera números de tarjeta de crédito válidos usando el algoritmo de Luhn para propósitos educativos y de testing.
+        Esta aplicación genera números de tarjeta de crédito válidos usando el algoritmo de Luhn.
         
         **🔧 Características principales:**
         - ✅ Validación con algoritmo de Luhn
@@ -513,15 +513,13 @@ with tab4:
         - 🎲 Generación aleatoria automática
         - ⬇️ Descarga de archivos TXT
         
-        **⚠️ Aviso Legal:**
-        Esta herramienta es solo para fines educativos y de testing. No debe usarse para actividades fraudulentas.
         ''')
     
     with col2:
         st.markdown("### 👥 Créditos y Información")
         st.markdown('''
         **Desarrollado por:**
-        - 🎓 Curso Python Friends School
+        - 🎓 Yisus MZ
         - 🔧 Versión: Streamlit Pro v2.0
         
         **🛠️ Tecnologías utilizadas:**
