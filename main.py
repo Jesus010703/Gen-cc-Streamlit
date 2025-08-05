@@ -561,6 +561,6 @@ with tab4:
 # Footer
 st.markdown("---")
 st.markdown(
-    '<div style="text-align: center; color: #7f8c8d; padding: 1rem;">💳 Generador de CC - Friends School © 2024 | Versión Streamlit</div>',
+    '<div style="text-align: center; color: #7f8c8d; padding: 1rem;">💳 Generador de CC - Yisus010703 © 2025 | Versión Web</div>',
     unsafe_allow_html=True
 )
