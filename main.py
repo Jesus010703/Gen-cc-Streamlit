@@ -253,20 +253,10 @@ with st.sidebar:
     st.markdown("### 📅 Fecha de Expiración")
     
     col1, col2 = st.columns(2)
-
-# Definir opciones
-meses_opciones = [f"{i:02d}" for i in range(1, 13)]
-años_opciones = [f"{i:02d}" for i in range(24, 31)]
-
-# Obtener valores actuales o aleatorios
-mes_default = st.session_state.get("mes_random", "01")
-año_default = st.session_state.get("año_random", "24")
-
-with col1:
-    mes = st.selectbox("Mes", meses_opciones, index=meses_opciones.index(mes_default), key="mes_select")
-with col2:
-    año = st.selectbox("Año", años_opciones, index=años_opciones.index(año_default), key="año_select")
-
+    with col1:
+        mes = st.selectbox("Mes", [f"{i:02d}" for i in range(1, 13)], key="mes_select")
+    with col2:
+        año = st.selectbox("Año", [f"{i:02d}" for i in range(24, 31)], index=0, key="año_select")
     
     if st.button("🎲 Fecha Aleatoria", key="fecha_aleatoria"):
         st.session_state.mes_random = f"{random.randint(1, 12):02d}"
